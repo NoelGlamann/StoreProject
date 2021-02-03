@@ -1866,12 +1866,17 @@ h2 {
 }
 
 
+#hours {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
 /**********************************/
 /******* Call to Action CSS *******/
 /**********************************/
 .call-to-action {
     position: relative;
-    padding: 30px 0;
+    padding: 10px 0;
     background: #FF6F61;
 }
 
@@ -2398,4 +2403,8 @@ h2 {
 .list-sym img{
 	height: 50px;
 	
+}
+
+.footer-right{
+	float: right;
 }
