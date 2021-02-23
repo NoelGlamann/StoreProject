@@ -42,46 +42,55 @@
         <!-- Top bar End -->
         
         <!-- Nav Bar Start -->
-        <div class="nav">
-		<div class="container-fluid">
-			<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-				<a href="#" class="navbar-brand">MENU</a>
-				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-					<div class="navbar-nav mr-auto">
-						<a href="index.html" class="nav-item nav-link">Home</a>
-						<a href="menu.html" class="nav-item nav-link">Menu</a>
-						<a href="product-detail.html" class="nav-item nav-link">Products</a>
-						<a href="https://stcharlessd.revtrak.net/lewis-and-clark-career-center/lcc-jc-s-store/#/f/jc-gift-cards"  target="_blank" class="nav-item nav-link">Gift Cards</a>
-						<a href="cart.html" class="nav-item nav-link">Cart</a>
-						<a href="checkout.html" class="nav-item nav-link active">Checkout</a>
-						<a href="my-account.html" class="nav-item nav-link">My Account</a>
-						<div class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More Pages</a>
-							<div class="dropdown-menu">
-								<a href="reviews.html" class="dropdown-item">Testimonials</a>
-								<a href="login.html" class="dropdown-item">Login & Register</a>
-								<a href="contact.html" class="dropdown-item">Contact Us</a>
-								<a href="aboutus.html" class="dropdown-item">About Information</a>
+		<div class="nav">
+			<div class="container-fluid">
+				<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+					<a href="#" class="navbar-brand">MENU</a>
+					<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+						<div class="navbar-nav mr-auto">
+							<a href="index.html" class="nav-item nav-link active">Home</a>
+							<div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Products</a>
+                                <div class="dropdown-menu">
+                                    <!--<a href="wishlist.html" class="dropdown-item">Wishlist</a>
+                                    <a href="login.html" class="dropdown-item">Login & Register</a>-->
+                                    <a href="product-list.html" class="dropdown-item">All Products</a>
+                                    <a class="nav-link" href="product-list.html?search=food"><i class="fas fa-utensils" ></i>Food</a>
+                                    <a class="nav-link" href="product-list.html?search=candy"><i class="fas fa-candy-cane"></i>Candy</a>
+                                    <a class="nav-link" href="product-list.html?search=snack"><i class="fas fa-cookie-bite"></i>Snacks</a>
+                                    <a class="nav-link" href="product-list.html?search=drink"><i class="fas fa-mug-hot"></i>Drinks</a>
+                                </div>
+                            </div>
+							<!--<a href="product-detail.html" class="nav-item nav-link">Product Detail</a>-->
+							<a href="cart.html" class="nav-item nav-link">Cart</a>
+							<a href="checkout.html" class="nav-item nav-link">Checkout</a>
+							<!--<a href="my-account.html" class="nav-item nav-link">My Account</a>-->
+							<div class="nav-item dropdown">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">More Pages</a>
+								<div class="dropdown-menu">
+									<a href="contact.html" class="dropdown-item">Contact Us</a>
+									<a href="about.html" class="dropdown-item">About Us</a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="navbar-nav ml-auto">
-						<div class="nav-item dropdown">
-							<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Account</a>
-							<div class="dropdown-menu">
-								<a href="login.html"  class="dropdown-item">Login</a>
-								<a href="login.html"  class="dropdown-item">Register</a>
+						<!--I dont think we even need this section - NG
+						<div class="navbar-nav ml-auto">
+							<div class="nav-item dropdown">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Account</a>
+								<div class="dropdown-menu">
+									<a href="login.html"  class="dropdown-item">Login</a>
+									<a href="login.html"  class="dropdown-item">Register</a>
+								</div>
 							</div>
-						</div>
+						</div>-->
 					</div>
-				</div>
-			</nav>
+				</nav>
+			</div>
 		</div>
-        </div>
-        <!-- Nav Bar End -->      
+		<!-- Nav Bar End -->     
         
         <!-- Bottom Bar Start -->
         <div class="bottom-bar">
@@ -90,7 +99,7 @@
                     <div class="col-md-3">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="img/logo.png" alt="Logo">
+                                <img src="img/jcstore.png" alt="Logo">
                             </a>
                         </div>
                     </div>
@@ -136,107 +145,42 @@
                     <div class="col-lg-8">
                         <div class="checkout-inner">
                             <div class="billing-address">
-                                <h2>Billing Address</h2>
+                                <h2>Order Info</h2>
                                 <div class="row">
                                     <div class="col-md-6">
                                         <label>First Name</label>
-                                        <input class="form-control" type="text" placeholder="First Name" required>
+                                        <input class="form-control" id="f-name" name="f-name" type="text" placeholder="First Name">
                                     </div>
                                     <div class="col-md-6">
                                         <label>Last Name</label>
-                                        <input class="form-control" type="text" placeholder="Last Name" required>
+                                        <input class="form-control" id="l-name" name="l-name" type="text" placeholder="Last Name">
                                     </div>
                                     <div class="col-md-6">
-                                        <label>E-mail</label>
-                                        <input class="form-control" type="text" placeholder="E-mail" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>Mobile Phone</label>
-                                        <input class="form-control" type="text" placeholder="Mobile Phone" required>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <label>Address</label>
-                                        <input class="form-control" type="text" placeholder="Address" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>Country</label>
-                                        <select class="custom-select" required>
-                                            <option selected>United States</option>
-                                            <option>Afghanistan</option>
-                                            <option>Albania</option>
-                                            <option>Algeria</option>
+                                        <label>Session Time</label>
+                                        <select class="form-control" id="time" name="time">
+                                            <option value="AM">AM</option>
+                                            <option value="PM">PM</option>
                                         </select>
                                     </div>
                                     <div class="col-md-6">
-                                        <label>City</label>
-                                        <input class="form-control" type="text" placeholder="City" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>State</label>
-                                        <input class="form-control" type="text" placeholder="State" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>ZIP Code</label>
-                                        <input class="form-control" type="text" placeholder="ZIP Code" required>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="newaccount">
-                                            <label class="custom-control-label" for="newaccount">Create an account</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input" id="shipto">
-                                            <label class="custom-control-label" for="shipto">Ship to different address</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="shipping-address">
-                                <h2>Shipping Address</h2>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <label>First Name</label>
-                                        <input class="form-control" type="text" placeholder="First Name" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>Last Name</label>
-                                        <input class="form-control" type="text" placeholder="Last Name" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>E-mail</label>
-                                        <input class="form-control" type="text" placeholder="E-mail" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>Mobile Phone</label>
-                                        <input class="form-control" type="text" placeholder="Mobile Phone" required>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <label>Address</label>
-                                        <input class="form-control" type="text" placeholder="Address" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>Country</label>
-                                        <select class="custom-select" required>
-                                            <option selected>United States</option>
-                                            <option>Afghanistan</option>
-                                            <option>Albania</option>
-                                            <option>Algeria</option>
+                                        <label>Class</label>
+                                        <select class="form-control" id="class" name="class">
+                                            <option value="1">ACR</option>
+                                            <option value="2">AST1</option>
+                                            <option value="3">AST2</option>
+                                            <option value="4">BSM</option>
+                                            <option value="5">BT</option>
+                                            <option value="6">CMN</option>
+                                            <option value="7">CSD</option>
+                                            <option value="8">ECC</option>
+                                            <option value="9">ET</option>
+                                            <option value="10">HO</option>
+                                            <option value="11">HRO</option>
+                                            <option value="12">HVAC</option>
+                                            <option value="13">PET</option>
+                                            <option value="14">PMT</option>
+                                            <option value="15">WE</option>
                                         </select>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>City</label>
-                                        <input class="form-control" type="text" placeholder="City" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>State</label>
-                                        <input class="form-control" type="text" placeholder="State" required>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>ZIP Code</label>
-                                        <input class="form-control" type="text" placeholder="ZIP Code" required>
                                     </div>
                                 </div>
                             </div>
@@ -246,10 +190,9 @@
                         <div class="checkout-inner">
                             <div class="checkout-summary">
                                 <h1>Cart Total</h1>
-                                <p>Product Name<span>$99</span></p>
-                                <p class="sub-total">Sub Total<span>$99</span></p>
-                                <p class="ship-cost">Shipping Cost<span>$1</span></p>
-                                <h2>Grand Total<span>$100</span></h2>
+                                <p class="sub-total">Sub Total<span id="subtotal">$99</span></p>
+                                <p class="ship-cost">Shipping Cost<span id="shipping">$1</span></p>
+                                <h2>Grand Total<span id="total">$100</span></h2>
                             </div>
 
                             <div class="checkout-payment">
@@ -258,18 +201,20 @@
                                     <div class="payment-method">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input" id="payment-1" name="payment">
-                                            <label class="custom-control-label" for="payment-1">Paypal</label>
+                                            <label class="custom-control-label" for="payment-1">Card</label>
                                         </div>
                                         <div class="payment-content" id="payment-1-show">
+                                            <label>Card Number</label>
+                                            <input class="form-control" type="password" id="card-num" name="card-num" placeholder="Card Number">
                                             <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
+                                                If no card number is provided cash will be expected with dilvery of the item(s).
                                             </p>
                                         </div>
                                     </div>
                                     <div class="payment-method">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" class="custom-control-input" id="payment-2" name="payment">
-                                            <label class="custom-control-label" for="payment-2">Payoneer</label>
+                                            <label class="custom-control-label" for="payment-2">Cash on Delivery</label>
                                         </div>
                                         <div class="payment-content" id="payment-2-show">
                                             <p>
@@ -277,42 +222,9 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="payment-method">
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input" id="payment-3" name="payment">
-                                            <label class="custom-control-label" for="payment-3">Check Payment</label>
-                                        </div>
-                                        <div class="payment-content" id="payment-3-show">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="payment-method">
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input" id="payment-4" name="payment">
-                                            <label class="custom-control-label" for="payment-4">Direct Bank Transfer</label>
-                                        </div>
-                                        <div class="payment-content" id="payment-4-show">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="payment-method">
-                                        <div class="custom-control custom-radio">
-                                            <input type="radio" class="custom-control-input" id="payment-5" name="payment">
-                                            <label class="custom-control-label" for="payment-5">Cash on Delivery</label>
-                                        </div>
-                                        <div class="payment-content" id="payment-5-show">
-                                            <p>
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
-                                            </p>
-                                        </div>
-                                    </div>
                                 </div>
                                 <div class="checkout-btn">
-                                    <button>Place Order</button>
+                                    <button onclick="placeOrder();">Place Order</button>
                                 </div>
                             </div>
                         </div>
@@ -322,94 +234,67 @@
         </div>
         <!-- Checkout End -->
         
-        <!-- Footer Start -->
-        <div class="footer">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h2>Get in Touch</h2>
-                            <div class="contact-info">
-                                <p><i class="fa fa-map-marker"></i>123 E Store, Los Angeles, USA</p>
-                                <p><i class="fa fa-envelope"></i>email@example.com</p>
-                                <p><i class="fa fa-phone"></i>+123-456-7890</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h2>Follow Us</h2>
-                            <div class="contact-info">
-                                <div class="social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                    <a href=""><i class="fab fa-youtube"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+ 		<!-- Footer Start -->
+         <div class="footer" id="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="footer-widget">
+							<h2>Get in Touch</h2>
+							<div class="contact-info">
+								<p><i class="fa fa-map-marker"></i>2400 Zumbehl Road, St. Charles, MO 63301</p>
+								<p><i class="fa fa-envelope"></i><a href="mailto:cwhite@stcharlessd.org">cwhite@stcharlessd.org</a></p>
+								<p><i class="fa fa-phone"></i><a href="tel:6364434950">(636) 443-4950</a></p>
+							</div>
+						</div>
+					</div>
+					<!--
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-widget">
+							<h2>Follow Us</h2>
+							<div class="contact-info">
+								<div class="social">
+								    <a href=""><i class="fab fa-twitter"></i></a>
+								    <a href=""><i class="fab fa-facebook-f"></i></a>
+								    <a href=""><i class="fab fa-linkedin-in"></i></a>
+								    <a href=""><i class="fab fa-instagram"></i></a>
+								    <a href=""><i class="fab fa-youtube"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>-->
 
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h2>Company Info</h2>
-                            <ul>
-                                <li><a href="aboutus.html#generalAbout">About Us</a></li>
-                                <li><a href="aboutus.html#privacy">Privacy Policy</a></li>
-                                <li><a href="aboutus.html#termsConditions">Terms & Condition</a></li>
-                            </ul>
-                        </div>
-                    </div>
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-widget">
+							<h2>Company Info</h2>
+							<ul>		
+								<li><a href="aboutus.html#generalAbout">About Us</a></li>
+								<li><a href="aboutus.html#termsConditions">Terms & Condition</a></li>
+							</ul>
+						</div>
+					</div>
 
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget">
-                            <h2>Purchase Info</h2>
-                            <ul>
-                                <li><a href="aboutus.html#payment">Payment Policy</a></li>
-                                <li><a href="aboutus.html#shipping">Shipping Policy</a></li>
-                                <li><a href="aboutus.html#returns">Return Policy</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+					<div class="col-lg-3 col-md-6">
+						<div class="footer-widget footer-right">
+							<h2>Purchase Info</h2>
+							<ul>
+								<li><a href="aboutus.html#payment">Payment Policy</a></li>
+								<li><a href="aboutus.html#returns">Return Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
                 
-                <div class="row payment align-items-center">
-                    <div class="col-md-6">
-                        <div class="payment-method">
-                            <h2>We Accept:</h2>
-                            <img src="img/payment-method.png" alt="Payment Method" />
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="payment-security">
-                            <h2>Secured By:</h2>
-                            <img src="img/godaddy.svg" alt="Payment Security" />
-                            <img src="img/norton.svg" alt="Payment Security" />
-                            <img src="img/ssl.svg" alt="Payment Security" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
-        
-        <!-- Footer Bottom Start -->
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 copyright">
-                        <p>Copyright &copy; <a href="https://htmlcodex.com">HTML Codex</a>. All Rights Reserved</p>
-                    </div>
-
-                    <div class="col-md-6 template-by">
-                        <p>Template By <a href="https://htmlcodex.com">HTML Codex</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer Bottom End -->       
+				<div class="row payment align-items-center">
+					<div class="col-md-6">
+						<div class="payment-method">
+							<h2>We Accept: &nbsp  JC's Store Cards &nbsp & &nbsp CASH</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer End -->     
         
         <!-- Back to Top -->
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
@@ -422,5 +307,8 @@
         
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script>
+            loadCartTotal();
+        </script>
     </body>
 </html>

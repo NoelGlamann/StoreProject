@@ -1,0 +1,596 @@
+{
+    "PepperoniPizzaSlice":{
+        "name":"Pepperoni Pizza Slice",
+        "price":1.75,
+        "type":"food"
+    },
+    "BuffaloChickenBitesFries":{
+        "name":"Buffalo Chicken Bites & Fries",
+        "price":3,
+        "type":"food"
+    },
+    "BuffaloChickenPizzaSlice":{
+        "name":"Buffalo Chicken Pizza Slice",
+        "price":1.75,
+        "type":"food"
+    },
+    "CheesePizzaSlice":{
+        "name":"Cheese Pizza Slice",
+        "price":1.75,
+        "type":"food"
+    },
+    "HotDogFries":{
+        "name":"Hot Dog & Fries",
+        "price":2.25,
+        "type":"food"
+    },
+    "ChickenTendersFries":{
+        "name":"Chicken Tenders & Fries",
+        "price":3.5,
+        "type":"food"
+    },
+    "MeatLoverPizzaSlice":{
+        "name":"Meat Lover Pizza Slice",
+        "price":1.75,
+        "type":"food"
+    },
+    "MozzarelaSticksFries":{
+        "name":"Mozzarela Sticks & Fries",
+        "price":3.5,
+        "type":"food"
+    },
+    "ToastedRaviolisFries":{
+        "name":"Toasted Raviolis & Fries",
+        "price":2.5,
+        "type":"food"
+    },
+    "SaussagePizzaSlice":{
+        "name":"Saussage Pizza Slice",
+        "price":1.75,
+        "type":"food"
+    },
+    "CheeseburgerFries":{
+        "name":"Cheeseburger & Fries",
+        "price":3,
+        "type":"food"
+    },
+    "BaconCheeseburgerFries":{
+        "name":"Bacon Cheeseburger & Fries",
+        "price":3.5,
+        "type":"food"
+    },
+    "MacCheeseBites":{
+        "name":"Mac & Cheese Bites",
+        "price":3,
+        "type":"food"
+    },
+    "Cookie":{
+        "name":"Cookie",
+        "price":0.5,
+        "type":"snack"
+    },
+    "CookieSandwich":{
+        "name":"Cookie Sandwich",
+        "price":1,
+        "type":"snack"
+    },
+    "Popcorn":{
+        "name":"Popcorn",
+        "price":0.25,
+        "type":"snack"
+    },
+    "Pretzel":{
+        "name":"Pretzel",
+        "price":1,
+        "type":"food"
+    },
+    "PretzelCheese":{
+        "name":"Pretzel & Cheese",
+        "price":1.25,
+        "type":"food"
+    },
+    "ChickenRingsFries":{
+        "name":"Chicken Rings & Fries",
+        "price":2.25,
+        "type":"food"
+    },
+    "Twizzlers":{
+        "name":"Twizzlers",
+        "price":1,
+        "type":"candy"
+    },
+    "SourpatchStrawsRainbow":{
+        "name":"Sourpatch Straws Rainbow",
+        "price":1,
+        "type":"candy"
+    },
+    "SwedishFish":{
+        "name":"Swedish Fish",
+        "price":1,
+        "type":"candy"
+    },
+    "Gummybears":{
+        "name":"Gummybears",
+        "price":1.25,
+        "type":"candy"
+    },
+    "SourpatchKids":{
+        "name":"Sourpatch Kids",
+        "price":0.75,
+        "type":"candy"
+    },
+    "Gushers":{
+        "name":"Gushers",
+        "price":0.25,
+        "type":"candy"
+    },
+    "SwedishFishTropical":{
+        "name":"Swedish Fish Tropical",
+        "price":1,
+        "type":"candy"
+    },
+    "LaffyTaffy":{
+        "name":"Laffy Taffy",
+        "price":0.25,
+        "type":"candy"
+    },
+    "Starburst":{
+        "name":"Starburst",
+        "price":1,
+        "type":"candy"
+    },
+    "StarburstTropical":{
+        "name":"Starburst Tropical",
+        "price":1,
+        "type":"candy"
+    },
+    "Skittles":{
+        "name":"Skittles",
+        "price":1,
+        "type":"candy"
+    },
+    "SkittlesSour":{
+        "name":"Skittles Sour",
+        "price":1,
+        "type":"candy"
+    },
+    "SkittlesBerry":{
+        "name":"Skittles Berry",
+        "price":1,
+        "type":"candy"
+    },
+    "AirheadsMystery":{
+        "name":"Airheads Mystery",
+        "price":0.25,
+        "type":"candy"
+    },
+    "AirheadsOrange":{
+        "name":"Airheads Orange",
+        "price":0.25,
+        "type":"candy"
+    },
+    "AirheadsPurple":{
+        "name":"Airheads Purple",
+        "price":0.25,
+        "type":"candy"
+    },
+    "AirheadsRed":{
+        "name":"Airheads Red",
+        "price":0.25,
+        "type":"candy"
+    },
+    "Oreos":{
+        "name":"Oreos",
+        "price":0.75,
+        "type":"snack"
+    },
+    "CinnimonGum":{
+        "name":"Cinnimon Gum",
+        "price":1,
+        "type":"snack"
+    },
+    "MintGum":{
+        "name":"Mint Gum",
+        "price":0.75,
+        "type":"snack"
+    },
+    "SlimJim":{
+        "name":"Slim Jim",
+        "price":1,
+        "type":"snack"
+
+    },
+    "Doritos":{
+        "name":"Doritos",
+        "price":0.5,
+        "type":"snack"
+    },
+    "CottonCandy":{
+        "name":"Cotton Candy",
+        "price":1,
+        "type":"snack"
+    },
+    "RanchVeggieStraws":{
+        "name":"Ranch Veggie Straws",
+        "price":0.5,
+        "type":"snack"
+    },
+    "SeaSaltVeggieStraws":{
+        "name":"Sea Salt Veggie Straws",
+        "price":0.5,
+        "type":"snack"
+    },
+    "Pringles":{
+        "name":"Pringles",
+        "price":0.5,
+        "type":"snack"
+    },
+    "PringlesSourcream":{
+        "name":"Pringles Sourcream",
+        "price":0.5,
+        "type":"snack"
+    },
+    "PringlesCheddarCheese":{
+        "name":"Pringles Cheddar Cheese",
+        "price":0.5,
+        "type":"snack"
+    },
+    "Cheezit":{
+        "name":"Cheezit",
+        "price":0.5,
+        "type":"snack"
+    },
+    "CheezitWhiteCheddar":{
+        "name":"Cheezit White Cheedar",
+        "price":0.5,
+        "type":"snack"
+    },
+    "FamousAmousCookies":{
+        "name":"Famous Amous Cookies",
+        "price":0.75,
+        "type":"snack"
+    },
+    "Funyons":{
+        "name":"Funyons",
+        "price":0.5,
+        "type":"snack"
+    },
+    "BeefSteakJerky":{
+        "name":"Beef Steak Jerky",
+        "price":1,
+        "type":"snack"
+    },
+    "GoldFish":{
+        "name":"Gold Fish",
+        "price":0.5,
+        "type":"snack"
+    },
+    "Gardettos":{
+        "name":"Gardetto's",
+        "price":0.5,
+        "type":"snack"
+    },
+    "SourpatchStawsBerry":{
+        "name":"Sourpatch Staws Berry",
+        "price":1,
+        "type":"snack"
+    },
+    "DietCoke":{
+        "name":"Diet Coke",
+        "price":0.75,
+        "type": "drink"
+    },
+    "CherryCoke":{
+        "name":"Cherry Coke",
+        "price":0.75,
+        "type": "drink"
+    },
+    "Coke":{
+        "name":"Coke",
+        "price":0.75,
+        "type":"drink"
+    },
+
+    "CaneSugarCoke":{
+        "name":"Cane Sugar Coke",
+        "price":0.75,
+        "type":"drink"
+    },
+
+    "VanillaCokeZero":{
+        "name":"Vanilla Coke Zero",
+        "price":0.75,
+        "type": "drink"
+    },
+    "SevenUp":{
+        "name":"Seven Up",
+        "price":0.75,
+        "type":"drink"
+    },
+    "Sprite":{
+        "name":"Sprite",
+        "price":0.75,
+        "type": "drink"
+    },
+    "DrPepperCherry":{
+        "name":"Dr. Pepper Cherry",
+        "price":0.75,
+        "type": "drink"
+    },
+
+    "OrangeFanta":{
+        "name":"Orange Fanta",
+        "price":0.75,
+        "type": "drink"
+    },
+    "DrPepper":{
+        "name":"Dr. Pepper",
+        "price":0.75,
+        "type": "drink"
+    
+    },
+    "DietDrPepper":{
+        "name":"Diet Dr. Pepper",
+        "price":0.75,
+        "type": "drink"
+    },
+    "StrawberryFanta":{
+        "name":"Strawberry Fanta",
+        "price":0.75,
+        "type": "drink"
+    },
+    "StrawberrySunkist":{
+        "name":"Strawberry Sunkist",
+        "price":0.75,
+        "type":"drink"
+    },
+    "AWDietRootBeer":{
+        "name":"A&W Diet Root Beer",
+        "price":0.75,
+        "type": "drink"
+    },
+    "MountainDew":{
+        "name":"Mountain Dew",
+        "price":0.75,
+        "type": "drink"
+    },
+    "DietMountainDew":{
+        "name":"Diet Mountain Dew",
+        "price":0.75,
+        "type": "drink"
+    },
+    "MinuteMaidLemonade":{
+        "name":"Minute Maid Lemonade",
+        "price":0.75,
+        "type": "drink"
+    },
+    "MinuteMaidPinkLemonade":{
+        "name":"Minute Maid Pink Lemonade",
+        "price":0.75,
+        "type": "drink"
+    },
+    "BriskTea":{
+        "name":"Brisk Tea",
+        "price":0.75,
+        "type":"drink"
+    },
+    "PibbExtra":{
+        "name":"Pibb Extra",
+        "price":0.75,
+        "type": "drink"
+    },
+    "MelloYello":{
+        "name":"Mello Yello",
+        "price":0.75,
+        "type": "drink"
+    },
+    "YooHooCan":{
+        "name":"YooHoo Can",
+        "price":0.75,
+        "type":"drink"
+    },
+    "PinaColadaFantaBottle":{
+        "name":"Pina Colada Fanta Bottle",
+        "price":1.25,
+        "type":"drink"
+    },
+    "SpriteBottle":{
+        "name":"Sprite Bottle",
+        "price":1.25,
+        "type":"drink"
+    },
+    "WaterBottle":{
+        "name":"Water Bottle",
+        "price":1,
+        "type":"drink"
+    },
+    "CokeBottle":{
+        "name":"Coke Bottle",
+        "price":1.25,
+        "type": "drink"
+    },
+    "DrPepperBottle":{
+        "name":"Dr. Pepper Bottle",
+        "price":1.25,
+        "type": "drink"
+    },
+    "DietDrPepperBottle":{
+        "name":"Diet Dr. Pepper Bottle",
+        "price":1.25,
+        "type": "drink"
+    },
+    "CherryCokeBottle":{
+        "name":"Cherry Coke Bottle",
+        "price":1.25,
+        "type": "drink"
+    },
+    "DrPepperCherryBottle":{
+        "name":"Dr. Pepper Cherry Bottle",
+        "price":1.25,
+        "type": "drink"
+    },
+    "PineappleFantaBottle":{
+        "name":"Pineapple Fanta Bottle",
+        "price":1.25,
+        "type": "drink"
+    },
+    "MinuteMaidLemonadeBottle":{
+        "name":"Minute Maid Lemonade Bottle",
+        "price":1.25,
+        "type": "drink"
+    },
+
+    "MinuteMaidOrangeJuiceBottle":{
+        "name":"Minute Maid Orange Juice Bottle",
+        "price":1.25,
+        "type": "drink"
+    },
+    "MinuteMaidPinkLemonadeBottle":{
+        "name":"Minute Maid Pink Lemonade Bottle",
+        "price":1.25,
+        "type": "drink"
+    },
+    "MinuteMaidAppleJuiceBottle":{
+        "name":"Minute Maid Apple Juice Bottle",
+        "price":1.25,
+        "type": "drink"
+    },
+    "JuiceBox":{
+        "name":"Juice Box",
+        "price":0.75,
+        "type":"drink"
+    },
+    "AWRootBeerBottle":{
+        "name":"A&W Root Beer Bottle",
+        "price":1.25,
+        "type": "drink"
+    },
+    "AWDietRootBeerBottle":{
+        "name":"A&W Diet Root Beer Bottle",
+        "price":1.25,
+        "type": "drink"
+    },
+    "AWCreamSodaBottle":{
+        "name":"A&W Cream Soda Bottle",
+        "price":1.25,
+        "type": "drink"
+    },
+    "DunkinDonutsFrenchVanilla":{
+        "name":"Dunkin Donuts French Vanilla",
+        "price":1.25,
+        "type": "drink"
+    },
+    "DunkinDonutsMocha":{
+        "name":"Dunkin Donuts Mocha",
+        "price":1.25,
+        "type": "drink"
+    },
+    "MuscleMilk":{
+        "name":"Muscle Milk",
+        "price":"?",
+        "type":"drink"
+    },
+    "CoreVanilla":{
+        "name":"Core Vanilla",
+        "price":2.50,
+        "type":"drink"
+    },
+    "CoreEliteVanilla":{
+        "name":"Core Elite Vanilla",
+        "price":2.50,
+        "type":"drink"
+    },
+    "CoreChocolate":{
+        "name":"Core Chocolate",
+        "price":2.50,
+        "type":"drink"
+    },
+    "SnappleRaspberry":{
+        "name":"Snapple Rasperry",
+        "price":1,
+        "type":"drink"
+    },
+    "SnapplePeach":{
+        "name":"Snapple Peach",
+        "price":1,
+        "type":"drink"
+    },
+    "SnappleMango":{
+        "name":"Snapple Mango",
+        "price":1,
+        "type":"drink"
+    },
+    "ArizonaFruitPunch":{
+        "name":"Arizona Fruit Punch",
+        "price":1,
+        "type":"drink"
+    },
+    "ArizonaMango":{
+        "name":"Arizona Mango",
+        "price":1,
+        "type":"drink"
+    },
+    "PeaceTeaSnoBerry":{
+        "name":"Peace Tea SnoBerry",
+        "price":1.25,
+        "type": "drink"
+    },
+    "PeaceTeaCaddyShack":{
+        "name":"Peace Tea Caddy Shack",
+        "price":1.25,
+        "type": "drink"
+    },
+    "PeaceTeaRazzleberry":{
+        "name":"Peace Tea Razzleberry",
+        "price":1.25,
+        "type": "drink"
+    },
+    "PeaceTeaJustPeachy":{
+        "name":"Peace Tea Just Peachy",
+        "price":1.25,
+        "type": "drink"
+    },
+    "GoldPeakPeachTea":{
+        "name":"Gold Peak Peach Tea",
+        "price":1.5,
+        "type":"drink"
+    },
+    "GoldPeakRaspberryTea":{
+        "name":"Gold Peak Raspberry Tea",
+        "price":1.5,
+        "type":"drink"
+    },
+    "GoldPeakSweetTea":{
+        "name":"Gold Peak Sweet Tea",
+        "price":1.5,
+        "type":"drink"
+    },
+    "GoldPeakUnsweetTea":{
+        "name":"Gold Peak Unsweet Tea",
+        "price":1.5,
+        "type":"drink"
+    },
+    "HonestTeaLemonade":{
+        "name":"Honest Tea Lemonade",
+        "price":1.5,
+        "type":"drink"
+    },
+    "PoweradeBlue":{
+        "name":"Powerade Blue",
+        "price":1.50,
+        "type":"drink"
+     },
+    "PoweradePurple":{
+        "name":"Powerade Purple",
+        "price":1.50,
+        "type":"drink"
+    },
+    "PoweradeRed":{
+        "name":"Powerade Red",
+        "price":1.50,
+        "type":"drink"
+    }
+
+
+    
+}
